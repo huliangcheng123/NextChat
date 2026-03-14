@@ -10,7 +10,7 @@ import DragIcon from "../icons/drag.svg";
 
 import Locale from "../locales";
 
-import { useChatStore } from "../store";
+import { useAppConfig, useChatStore } from "../store";
 
 import {
   DEFAULT_SIDEBAR_WIDTH,
